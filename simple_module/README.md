@@ -2,7 +2,7 @@
 
 Все действия в этом уроке производятся в `GNU Linux`.
 
-Рассмотрим пример создания собственного `Python` модуля на языке `С`. Для этого понадобится создать файл на языке `С` (лежит по ссылке [`ownmod.c`](https://github.com/dm-fedorov/pm3sem/blob/master/simple_module/ownmod.c)), который является модулем.
+Рассмотрим пример создания собственного `Python` модуля на языке `С`. Для этого понадобится создать файл на языке `С` (лежит по ссылке [`ownmod.c`](https://github.com/dm-fedorov/python-modules/blob/master/simple_module/ownmod.c)), который является модулем.
 
 Структуры данных модуля представлены в [документации](https://docs.python.org/3/c-api/structures.html).
 
@@ -10,7 +10,7 @@
 - [Extending and Embedding the Python Interpreter](https://docs.python.org/3/extending/index.html)
 - [Python/C API Reference Manual](https://docs.python.org/3/c-api/index.html)
 
-Затем формируем файл [`setup.py`](https://github.com/dm-fedorov/pm3sem/blob/master/simple_module/setup.py).
+Затем формируем файл [`setup.py`](https://github.com/dm-fedorov/python-modules/blob/master/simple_module/setup.py).
 
 Для создания модулей на языке `С` воспользуемся пакетом [`distutils`](https://docs.python.org/3.8/library/distutils.html), входящим в состав стандартной библиотеки `Python`.
 
